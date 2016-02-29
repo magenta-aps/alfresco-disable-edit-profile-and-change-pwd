@@ -1,15 +1,30 @@
 <extension>
-    <modules>
-        <module>
-            <id>Customize user profile view - removed edit profile button</id>
-            <version>1.0</version>
-            <auto-deploy>true</auto-deploy>
-            <customizations>
-                <customization>
-                    <targetPackageRoot>org.alfresco.components.profile</targetPackageRoot>
-                    <sourcePackageRoot>dk.magenta.components.profile</sourcePackageRoot>
-                </customization>
-            </customizations>
-        </module>
-    </modules>
+	<modules>
+		<module>
+			<id>Customize user profile view - removed edit profile button</id>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.components.profile
+					</targetPackageRoot>
+					<sourcePackageRoot>dk.magenta.components.profile
+					</sourcePackageRoot>
+				</customization>
+			</customizations>
+		</module>
+		<module>
+			<id>Customize Share header - removed 'Change password' button from user menu</id>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.share.header
+					</targetPackageRoot>
+					<sourcePackageRoot>dk.magenta.share.header
+					</sourcePackageRoot>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
 </extension>

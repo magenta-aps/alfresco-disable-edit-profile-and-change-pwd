@@ -1,0 +1,1 @@
+widgetUtils.deleteObjectFromArray(model.jsonModel, "id", "HEADER_USER_MENU_PASSWORD");
